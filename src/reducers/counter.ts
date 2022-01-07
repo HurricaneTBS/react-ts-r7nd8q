@@ -9,8 +9,7 @@ const count = (state = 0, action) => {
     case CounterTypes.DECRE_NUMBER: {
       return state - 1;
     }
-    case CounterTypes.INCRE_NUMBER_BY_AMOUNT:
-    case CounterTypes.INCRE_NUMBER_BY_AMOUNT_ASYNC: {
+    case CounterTypes.INCRE_NUMBER_BY_AMOUNT: {
       return state + action.payload;
     }
     default:

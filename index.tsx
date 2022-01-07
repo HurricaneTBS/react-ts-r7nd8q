@@ -4,7 +4,6 @@ import './style.css';
 import App from './src/components/app';
 import { Provider } from 'react-redux';
 import store from './src/store';
-console.log(store.getState());
 
 render(
   <Provider store={store}>
